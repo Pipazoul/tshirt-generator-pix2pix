@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  pix2pix:
+    image: yassinsiouda/tshirt-pix2pix
+    build: .
+    ports:
+      - "8000:8000"
